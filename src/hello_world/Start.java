@@ -10,6 +10,12 @@ public class Start {
 //        MyFrame frame5 = new ManyFigures();
 //        MyFrame frame6 = new DisplayRectSlow();
 //        MyFrame frame7 = new Animation();
-        MyFrame frame8 = new DisplayFaceObject();
+//        MyFrame frame8 = new DisplayFaceObject();
+//        MyFrame frame9 = new DisplayFaceVector();
+//        MyFrame frame10 = new DisplayCarVector();
+//        MyFrame frame11 = new DisplayCarTrain();
+//        MyFrame frame12 = new DisplayCarsTrains();
+//        MyFrame frame13 = new DisplayVehicleVector();
+        MyFrame frame14 = new PlayerAnimation();
     }
 }

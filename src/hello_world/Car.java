@@ -1,16 +1,8 @@
 package hello_world;
 
-public class Car {
-    int x;
-    int y;
-    int vx;
-    int vy;
-
+public class Car extends Vehicle {
     public Car(int x, int y, int vx, int vy) {
-        this.x = x;
-        this.y = y;
-        this.vx = vx;
-        this.vy = vy;
+        super(x, y, vx, vy);
     }
     public void draw(MyFrame frame) {
         frame.fillRect(x + 10, y, 20, 10);
@@ -18,9 +10,4 @@ public class Car {
         frame.fillOval(x + 5, y + 20, 10, 10);
         frame.fillOval(x + 25, y + 20, 10, 10);
     }
-    public void move() {
-        x += vx;
-        y += vy;
-    }
-
 }
